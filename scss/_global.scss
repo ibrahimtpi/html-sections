@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+/* Variables */
+$transition: all 0.3s ease-in-out;
+
+body {
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.p-10 {
+    padding: 10px;
+}
+.row {
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+}
+
+.col {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
